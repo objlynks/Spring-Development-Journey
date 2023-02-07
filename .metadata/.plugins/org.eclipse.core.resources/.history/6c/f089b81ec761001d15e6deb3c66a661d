@@ -1,0 +1,22 @@
+class Student{
+
+	String studentId;
+	int age;
+	
+}
+
+
+
+public class MainApplication {
+
+	public static void main(String[] args) {
+		
+		Student student = new Student();
+		student.studentId = "Jonathan";
+		student.age = 10;
+		System.out.println(student.studentId);
+		System.out.println(student.age);
+		
+		
+	}
+}
